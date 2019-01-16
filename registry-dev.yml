@@ -4,10 +4,10 @@ spring:
   application:
     name: ly-registry
   rabbitmq:
-    virtual-host: /leyou
-    username: /leyou
-    password: leyou
-    host: 192.168.19.121
+    #virtual-host: /leyou
+    username: wangpw
+    password: 123456
+    host: 192.168.161.65
 eureka:
   client:
     fetch-registry: false
