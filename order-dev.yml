@@ -11,7 +11,7 @@ spring:
       maximum-pool-size: 200
       minimum-idle: 100
   rabbitmq:
-    host: 192.168.161.65
+    host: 127.0.0.1
     username: wangpw
     password: 123456
     #virtual-host: /leyou
@@ -19,7 +19,7 @@ spring:
       queue: leyou.order.delay.queue
     publisher-confirms: true
   redis:
-    host: 192.168.161.65
+    host: 127.0.0.1
 eureka:
   client:
     service-url:
