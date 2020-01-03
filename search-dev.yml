@@ -11,7 +11,7 @@ spring:
     #virtual-host: /leyou
     username: wangpw
     password: 123456
-    host: 127.0.0.1
+    host: hadoop101
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
   resources:

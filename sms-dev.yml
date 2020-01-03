@@ -7,7 +7,7 @@ spring:
     #virtual-host: /leyou
     username: wangpw
     password: 123456
-    host: 127.0.0.1
+    host: hadoop101
 
 leyou:
   sms:

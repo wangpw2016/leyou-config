@@ -6,12 +6,12 @@ spring:
   thymeleaf:
     cache: false
   rabbitmq:
-    host: 127.0.0.1
+    host: hadoop101
     username: wangpw
     password: 123456
     #virtual-host: /leyou
   redis:
-    host: 127.0.0.1
+    host: hadoop101
 eureka:
   client:
     service-url:

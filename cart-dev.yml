@@ -4,12 +4,12 @@ spring:
   application:
     name: cart-service
   redis:
-    host: 127.0.0.1
+    host: hadoop101
   rabbitmq:
     #virtual-host: /leyou
     username: wangpw
     password: 123456
-    host: 127.0.0.1
+    host: hadoop101
 eureka:
   client:
     service-url:

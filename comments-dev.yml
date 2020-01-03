@@ -10,7 +10,7 @@ spring:
       host: 127.0.0.1
       database: leyoudb
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/leyou?characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://hadoop101:3306/leyou?characterEncoding=UTF-8&useSSL=false
     username: root
     password: 123456
     hikari:
@@ -20,9 +20,9 @@ spring:
     #virtual-host: /leyou
     username: wangpw
     password: 123456
-    host: 127.0.0.1
+    host: hadoop101
   redis:
-    host: 127.0.0.1
+    host: 1hadoop101
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
 eureka:
