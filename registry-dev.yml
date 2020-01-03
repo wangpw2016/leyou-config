@@ -5,9 +5,9 @@ spring:
     name: ly-registry
   rabbitmq:
     #virtual-host: /leyou
-    username: wangpw
+    username: wpw
     password: 123456
-    host: 127.0.0.1
+    host: 118.31.118.152
 eureka:
   client:
     fetch-registry: false
