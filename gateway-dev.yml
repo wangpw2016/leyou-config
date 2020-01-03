@@ -7,7 +7,7 @@ spring:
     #virtual-host: /leyou
     username: wangpw
     password: 123456
-    host: 118.31.118.152
+    host: 127.0.0.1
 eureka:
   client:
     service-url:
